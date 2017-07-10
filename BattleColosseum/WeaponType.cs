@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace BattleColosseum
 {
-    public class CharacterFactory
+    public enum WeaponType:int
     {
-        public static Character createNewRandomCharacter()
-        {
-            
-            return null;
-        }
+        SWORD = 0
     }
 }

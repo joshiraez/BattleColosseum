@@ -48,10 +48,13 @@
     <Compile Include="Character.cs" />
     <Compile Include="CharacterFactory.cs" />
     <Compile Include="Class.cs" />
+    <Compile Include="ClassData.cs" />
     <Compile Include="Stats.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Weapon.cs" />
+    <Compile Include="WeaponData.cs" />
+    <Compile Include="WeaponType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

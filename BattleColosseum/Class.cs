@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BattleColosseum
 {
-    public enum Class
+    public enum Class : int
     {
-        WARRIOR
+        WARRIOR = 0
     }
 }
