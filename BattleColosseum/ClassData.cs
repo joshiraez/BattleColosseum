@@ -40,7 +40,7 @@ namespace BattleColosseum
         //I should externalize the data. All the data in a static class will be loaded in RAM even if it's not used.
         //Not desirable, when it's just a dictionary of data.
 
-        public static ClassStats[] classData =
+        private static ClassStats[] classData =
         {
             new ClassStats
                 (
@@ -52,7 +52,7 @@ namespace BattleColosseum
                 )
         };
 
-        public struct ClassStats
+        private struct ClassStats
         {
             public Class className { get; }
             public byte[] baseGrowths { get; }
