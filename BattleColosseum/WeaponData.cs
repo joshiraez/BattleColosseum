@@ -8,22 +8,22 @@ namespace BattleColosseum
 {
     public static class WeaponData
     {
-        private static byte getAttack(this Weapon weapon)
+        public static byte getAttack(this Weapon weapon)
         {
             return weaponData[(int)weapon].atk;
         }
 
-        private static byte getHit(this Weapon weapon)
+        public static byte getHit(this Weapon weapon)
         {
             return weaponData[(int)weapon].hit;
         }
 
-        private static byte getCrit(this Weapon weapon)
+        public static byte getCrit(this Weapon weapon)
         {
             return weaponData[(int)weapon].crt;
         }
 
-        private static bool isMagic(this Weapon weapon)
+        public static bool isMagic(this Weapon weapon)
         {
             return weaponData[(int)weapon].isMagic;
         }

@@ -10,8 +10,12 @@ namespace BattleColosseum
     {
         public static Character createNewRandomCharacter()
         {
-            
-            return null;
+            return new Character(ClassData.getRandomClass());
+        }
 
+        public static Character createNewRandomCharacter(Class className)
+        {
+            return new Character(className);
+        }
     }
 }

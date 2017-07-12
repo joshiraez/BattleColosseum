@@ -10,4 +10,5 @@ namespace BattleColosseum
     {
         WARRIOR = 0
     }
+    
 }
