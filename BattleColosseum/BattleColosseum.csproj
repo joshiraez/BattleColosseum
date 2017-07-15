@@ -49,6 +49,7 @@
     <Compile Include="CharacterFactory.cs" />
     <Compile Include="Class.cs" />
     <Compile Include="ClassData.cs" />
+    <Compile Include="IBattleShow.cs" />
     <Compile Include="RNG.cs" />
     <Compile Include="Stats.cs" />
     <Compile Include="Test.cs" />
