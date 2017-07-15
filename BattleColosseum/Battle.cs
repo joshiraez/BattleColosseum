@@ -16,7 +16,7 @@ namespace BattleColosseum
         {
             this.player1 = player1;
             this.player2 = player2;
-            this.show = BattleShowFactory(show, player1, player2);
+            //this.show = BattleShowFactory.getInstance().makeShow(show, player1, player2); - todo
         }
 
         //Another constructor with the Interface

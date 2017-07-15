@@ -44,13 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ability.cs" />
+    <Compile Include="AttackType.cs" />
     <Compile Include="Battle.cs" />
+    <Compile Include="Battler.cs" />
+    <Compile Include="BattleShowFactory.cs" />
     <Compile Include="Character.cs" />
     <Compile Include="CharacterFactory.cs" />
     <Compile Include="Class.cs" />
     <Compile Include="ClassData.cs" />
     <Compile Include="IBattleShow.cs" />
     <Compile Include="RNG.cs" />
+    <Compile Include="ShowType.cs" />
     <Compile Include="Stats.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
